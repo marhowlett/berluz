@@ -1,0 +1,261 @@
+
+//main: main.less
+@media (max-width: 768px){
+.offcanvas-sidebar-mobile .woodmart-sticky-sidebar-opener {
+    display: none!important;
+}
+
+}
+@media screen and (max-width: 750px) {
+    .woodmart-burger-icon a{
+        color: @rosa!important;
+    }
+    /*LOGO*/
+    .woodmart-logo img {
+   padding-top: 0;
+    transform: scale(1) translateY(0px);
+}
+    
+    //Fix slide
+    
+    canvas{
+        touch-action:auto !important;
+    }
+    
+    .scene-nav{
+        display: none;
+    }
+    
+    /*Esquema por defecto para las secciones*/
+    .grid {
+		    display: initial;
+        .col {
+            width: 100%;
+        }
+        .col2 {
+            width: 100%;
+        }
+        .col3 {
+            width: 100%;
+        }
+        
+        &.invertido{
+            flex-wrap: wrap-reverse;
+        } 
+    }
+    
+.template-section a.btn {
+    margin: 0 auto;
+    display: block;
+     margin-top: 25px;
+    padding: 15px;
+    margin-left: 10px!important;
+    margin-right: 10px;
+}
+
+
+    .template-section {
+       
+    padding: 50px 15px;
+
+        .col, .col2, .col3 {
+            min-height: auto;
+            padding: 20px;
+        }
+		h2 {
+			      font-size: 38px;
+		}
+        
+        p, h2, h3 {
+            text-align: center;
+        }
+        
+    }
+
+    
+    #organiza {
+    background: url(../img/fondo1movil.png) no-repeat center;
+    z-index: 99;
+            height: inherit;
+        background-size: cover;
+    top: -31px;
+       .contenedor {
+   
+    top: 20px;
+}
+        .col{
+            top: 0px;
+        }
+        
+    }
+    
+   section#slide {
+    display: none;
+}
+    section#slide2 {
+    display: inherit;
+}
+       section#valores {
+    display: none;
+}
+    section#valores2 {
+    display: inherit;
+}
+     section.movil {
+    display: inherit;
+}
+     section.lap {
+    display: none;
+}
+   
+    
+   #galeria {
+   
+    margin-top: -57px;
+       .contenedor{
+               margin-top: 25px;
+       }
+        a.load-more.ladda-button {
+   
+    font-size: 1.4em;
+       }
+}
+   
+    #conocenos {
+    background: url(../img/Conocenosmovil.jpg) no-repeat center;
+    background-size: cover;
+        .contenedor {
+       top: -26px;
+    left: 0px;
+            
+}
+        img{
+            margin-bottom: 0px;
+           
+    max-width: 70%;
+
+        }
+        h2{
+            position: relative;
+    top: 13px;
+        }
+}
+    #contacto{
+        a.evento {
+    position: relative;
+    top: 0px;
+}
+        p img {
+    margin-left: 0px;
+}
+        p{
+            text-align: left;
+        }
+        span {
+    position: relative;
+    left: 0px;
+}
+         p.imagenes {
+             text-align: center;
+    position: relative;
+    top: 0px;
+             img{
+                 margin-left: 20px;
+             }
+        }
+    }
+    #organizar{
+        margin-bottom: -32px;
+        .grid{
+            display: flex;
+    flex-wrap: wrap;
+            margin-bottom: -31px;
+        }
+        padding: 50px 0px;
+            background: url(../img/organizamosmovil.jpg) no-repeat right;
+    background-size: cover;
+        .col{
+                      width: 63%;
+        }
+         h2 {
+    text-align: left;
+    font-size: 30px;
+}
+        p{
+            text-align: left;
+        }
+    }
+    #bebe{
+        background: url(../img/bebemovil.png) no-repeat top center;
+        .contenedor{
+            margin-top: 500px;
+        }
+        h3 {
+    font-size: 18px;
+    text-align: left;
+        }
+    }
+    #popup{
+         background: url(../img/3-Paquetesmovil.jpg) no-repeat center;
+        .col3{
+                width: 100%;
+            margin-top: 20px;
+        }
+        
+    }
+    #popup2{
+        h2 {
+    font-size: 25px;
+}
+     .ban3 {
+    padding: 20px;
+}
+    }
+    #fuera {
+    padding: 100px 20px;
+    background: url(../img/4-Fueramovil.jpg) no-repeat center;
+    background-size: cover;
+}
+    
+#valores2 {
+    .grid {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    .col{
+        width: 50;
+         min-height: auto;
+    }
+    background: url(../img/3Valoresmovil.jpg) no-repeat center;
+    background-size: cover;
+
+    p{
+        text-align: center;
+        position: relative;
+    top: 20px;
+    }
+    
+    img{
+        display: block;
+        margin: auto;
+    }
+    .contenedor{
+      
+      
+        h2{
+            margin-bottom: 20px;
+                text-transform: inherit;
+        }
+    }
+    
+}
+    #conocenos2 {
+   
+     
+    .fondo {
+       
+       background: url(../img/1Conocenosmovil.jpg) no-repeat center;
+      
+    }
+    }
+}
