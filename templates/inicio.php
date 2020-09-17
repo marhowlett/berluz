@@ -4,40 +4,39 @@
 ?>
 
 <section id="slide" >
-    <?php add_revslider('jewelry'); ?>
+    <?php add_revslider('berluz'); ?>
 </section>
-<section id="slide2" >
-    <?php add_revslider('movil'); ?>
-</section>
-<section id="organiza" class="template-section">
+
+<div class="fondoinicio">
+<section id="vestidos" class="template-section">
 <div class="contenedor">
-   <h2>Organizamos tu Evento</h2>
-   <p>En Leonor Morales Wedding and Event Planner <b>cuidamos cada detalle</b> y te brindamos la magia que hará que tu evento sea realmente <b>inolvidable</b> por eso:</p>
-    <div class="grid">
-        <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/salud.png" alt="Logo"></div>
-        <div class="col">
-            <ul>
-                <li>Realizamos <b>tu evento en cualquier parte de México</b>.</li>
-                <li>Te ayudamos en la <b>gestión de los trámites necesarios</b>.</li>
-                <li>Escuchamos tus ideas y te apoyamos durante todo el proceso.</li>
-                <li>Tenemos <b>paquetes de celebración</b> que se adaptan a tu presupuesto.</li>
-                <li>Te orientamos para <b>elegir los mejores proveedores</b> según tus gustos, peticiones y las últimas tendencias. </li>
-               
-                <p class="especial">Y más</p>
-                
-            </ul>
-            <p class="especial"><b>¡Queremos que disfrutes tu celebración desde la planeación!</b></p>
-             <a href="https://lmeventos.com.mx/organizamos/" class="btn">Saber más</a>
-        </div>
+   <div class="grid">
+    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vestidos1.png" alt="Logo"><br><a href="" class="tienda1">VER TIENDA</a></div>
+    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vestidos2.png" alt="Logo"><br><a href="" class="tienda2">VER TIENDA</a></div>
     </div>
 </div>
 </section>
-
-<section id="galeria" class="template-section">
+<section id="promociones" class="template-section">
 <div class="contenedor">
-   <h2 class="blanco">Galería</h2>
-   <p class="blanco">Nuestros eventos son momentos inolvidables, aquí podrás ver la magia que los caracteriza:</p>
-    <?php echo do_shortcode( '[grid_plus name="galeria"]' ); ?>
+   <h2>Descubre tu vestido de cuento<span>PROMOCIONES</span></h2>
+   <?php echo do_shortcode( '[woodmart_products layout="carousel" slides_per_view="4" autoplay="no" hide_pagination_control="yes" hide_prev_next_buttons="no" center_mode="no" wrap="no" sale_countdown="0" stock_progress_bar="0" highlighted_products="0" products_bordered_grid="0" lazy_loading="no" scroll_carousel_init="no"]' ); ?>
+</div>
+</section>
+</div>
+<section id="testimonios" class="template-section">
+<div class="contenedor">
+   <h2 >Lo que nuestros clientes opinan <span>TESTIMONIOS</span></h2>
+  
+    <?php echo do_shortcode( '[elfsight_testimonials_slider id="1"]' ); ?>
+   
+    
+</div>
+</section>
+    <section id="ig" class="template-section">
+<div class="contenedor">
+   <h2 >Nos encanta verte brillar <span>INSTAGRAM</span></h2>
+  
+    
    
     
 </div>
