@@ -41,67 +41,59 @@
     
 </div>
 </section>
+<section id="contacto" class="template-section">
 
-    <section id="blog" class="template-section">
+<div class="contenedor">
+   
+
     
-    
-     <div class="contenedor">
-       <h2>Revista</h2>
-       <p>Entérate de las últimas tendencias en moda y decoración para Eventos Sociales y mucho más...
-Aquí te contamos todo lo que necesitas saber para que tu Evento sea un éxito.  </p>
-        <div class="centro">
-        
-        
-        <?php echo do_shortcode('[vc_row][vc_column][woodmart_blog items_per_page="3" blog_design="masonry" img_size="200x100" parts_title="1" parts_meta="1" parts_text="1" parts_btn="1" lazy_loading="no" blog_columns="3"][/vc_column][/vc_row]');?>
-
-         
-     </div>
-       <div class="center">
-           <a href="https://lmeventos.com.mx/revista/" class="btn">VER REVISTA</a>
-       </div>
-        </div>
-    </section>
-     <section id="conocenos" class="template-section">
-     <div class="contenedor">
-         <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Soluciones">
-         <h2>Conócenos</h2>
-         <p>Leonor Morales Wedding and Event Planner, es una empresa con más de 5 años de experiencia en la producción, planeación y organización de Eventos Sociales. 
-</p>
-        <p>Ofrecemos asesoría y atención personalizada para coordinar los detalles de tu Boda, Bautizo, XV años y cualquier otro tipo de Evento social o corporativo, conforme a tus gustos,  peticiones y a las últimas tendencias </p>
-        <div class="center">
-           <a href="https://lmeventos.com.mx/nosotros/" class="btn">ME INTERESA</a>
-       </div>
-     </div>
-</section>
-  <section id="contacto" class="template-section">
- 
- <div class="contenedor">
-    <h2>CONTÁCTANOS</h2>
-     <p class="especial">Convertiremos tu evento en un momento inolvidable.</p>
-
-  <div class="grid">
-
-                
-                <div class="col prueba_col">
-                 
-                 
-                  <?php echo do_shortcode( '[caldera_form id="CF5eff974667700"]' ); ?>
-                    <a class="evento" href="mailto:contacto@lmeventos.com.mx">contacto@lmeventos.com.mx</a>
+    <div class="grid gridespe">
+        <div class="col espe"><img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo.png" alt="Logo"></div>
+        <div class="col"><h2>
+<span class="espe">¡CONTÁCTANOS!</span><br>Te ayudaremos a resolver tus dudas</h2></div>
+    </div>
+     
+           <div class="grid">
+               <div class="col"><?php echo do_shortcode('[caldera_form id="CF5f63b51a63210"]'); ?></div>
                
-                </div>
-                <div class="col fondo">
-                   <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/reloj.svg" alt="Logo"> Lunes a Sábado de 9 a.m. a 7 p.m. y <span>Domingos de 10 a.m. a 3 p.m.</span></p>
-                  <!-- <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/tel.svg" alt="Logo"> 55 5503 3469  </p>-->
-                   <p> <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Whats.svg" alt="Logo"> <a href="https://wa.me/525512493830">5512493830</a><br></p>
-                 <p class="imagenes"><a href="https://www.instagram.com/leonormoraleseventos/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/IG.svg" alt="Logo"></a><a href="https://www.facebook.com/LeonorMoralesEventos/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/FB.svg" alt="Logo"></a><a href="https://www.zankyou.com.mx/f/leonor-morales-wedding-planner-828676"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/Zankyou.svg" alt="Logo"></a></p>
-                 
-                </div>
-
-
-            </div>
-             </div>
+<div class="col datos">
+       
+     
+       <div class="datos">
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/clock.png" alt="Logo">  L - V   11:00 am a 7:30 pm
+<span>Sábado 11:00 am a 5:30 pm</span> </p>
+        
+        </div>
+        <div class="datos">
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/phone.png" alt="Logo"> (777) 100 1505<span>
+(777) 244 7159</span><span>
+EXT. 101</span>
+</p>
+        
+        </div>
+        <div class="datos">
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/WA.png" alt="Logo">  <a href="https://wa.me/7771140441">(777) 114 0441</a></p>
+        
+        </div>
+        <div class="datos">
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/location.png" alt="Logo"><b class="especial"> Felipe Neri #9</b> <span>
+Col. Emiliano Zapata</span><span>
+Cuernavaca, Morelos</span></p>
+        
+        </div>
+        <div class="datos">
+       <p class="bl2"> <img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/mail.png" alt="Logo">  <a href="mailto:contacto@ecobol.com.mx">contacto@ecobol.com.mx</a></p>
+        
+        </div>
+        
+     
+       <p class="negrita">SÍGUENOS EN:</p>
+       <p><a href="https://web.facebook.com/ventas.bolsas.5?_rdc=1&_rdr"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/fb.png" alt="Logo">  </a><a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/ig.png" alt="Logo">  </a><a href="#"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/yt.png" alt="Logo">  </a><a href="https://pin.it/4KXvPse"><img class="so" src="<?php echo get_stylesheet_directory_uri(); ?>/img/pt.png" alt="Logo">  </a></p>
+       
+     </div>
+           </div>
+</div>
 </section>
-
 <?php 
     get_footer();
 ?>
