@@ -79,7 +79,7 @@
     font-display: swap;
 }
 
-body.page-template-inicio{
+body.page-template-inicio, body.page-template-acerca, body.page-template-talla{
 .row {
     
     display: inherit;
@@ -129,6 +129,9 @@ body.page-template-inicio{
     font-style: italic;
     text-decoration: underline;
 }
+}
+.nav-shop {
+    visibility: hidden;
 }
 
 /*Esquema por defecto para las secciones*/
@@ -216,6 +219,9 @@ text-transform: uppercase;
             color: @gris;
             font-size: 58px;
             display: block;
+            &.rosa{
+                color: @rosa;
+            }
         }
 
     }
@@ -224,6 +230,11 @@ text-transform: uppercase;
         font-family: 'Bell MT';
          color: @rosa;
         text-transform: uppercase;
+        &.dorado{
+            color: @dorado;
+            font-weight: normal;
+            font-style: italic;
+        }
     }
     p,
     ul,a {
@@ -297,6 +308,17 @@ text-transform: uppercase;
 #slide{
     padding-top: 120px;
 }
+.social-form-circle .woodmart-social-icon {
+  
+    color: white!important;
+}
+#descuento{
+    p.descuento {
+    color: white;
+    margin-top: 8px;
+}
+    
+}
 #vestidos{
         padding-top: inherit;
 
@@ -332,6 +354,38 @@ text-transform: uppercase;
     background-size: cover;
 }
 #contacto{
+     background: url(../img/contacto.jpg) right no-repeat;
+    
+    .datos{
+        i{
+                font-family: 'Bell MT';
+    color: #c7b273;
+    font-style: italic;
+    font-size: 25px;
+    position: relative;
+    left: 10px;
+}
+        span.espe{
+                margin-top: -13px;
+        }
+         span{
+            position: relative;
+    left: 53px;
+    }
+        }
+    
+   img.so {
+    margin-right: 10px;
+}
+      
+    p.negrita{
+         font-family: 'Bell MT';
+        color: @rosa;
+            font-weight: normal;
+            font-style: italic;
+   
+    }
+    
    
     .col {
     min-height: inherit;
@@ -340,6 +394,7 @@ text-transform: uppercase;
         margin-bottom: -100px;
         h2{
                 line-height: 1em;
+                text-align: left;
         }
     }
     img{
@@ -391,3 +446,399 @@ text-transform: uppercase;
     float: right;
 }
 }
+#esbrillante{
+    background-color: @dorado;
+        padding: 30px 0px 10px 0px;
+    a,p{
+        color: white;
+    }
+    p.acerca{
+        a{
+             font-family: 'Bell MT';
+            border-right: 1px solid white;
+    margin-right: 10px;
+                padding-right: 10px;
+            &.espe{
+                border-right: none;
+                margin-right: auto;
+            }
+}
+        }
+    p.sitio{
+            font-weight: bold;
+        a{
+            font-weight: bold;
+        }
+        
+    }
+}
+#acerca{
+    background: url(../img/acerca.jpg) top left no-repeat;
+           height: 1800px;
+    .contenedor{
+            position: relative;
+    top: 210px;
+    }
+    .acercafondo{
+         background: url(../img/acerca2.png) right no-repeat;
+            height: 800px;
+    position: relative;
+           top: -110px;
+   
+    }
+    .divfondo1{
+margin-bottom: -265px;
+        h2{
+                color: #eeeeee;
+           font-size: 120px;
+    font-style: normal;
+    font-weight: bold;
+            position: relative;
+    left: 100px;
+            
+        }
+    }
+    .divfondo2{
+            position: relative;
+           top: -221px;
+        h2 span{
+            font-weight: normal;
+            position: relative;
+        left: -88px;
+    top: -10px;
+            
+        }
+    }
+    p.text{
+            position: relative;
+    top: 70px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    }
+    .grid{
+            position: relative;
+            top: 185px;
+        .col{
+                min-height: inherit;
+        }
+        p{
+                text-align: justify;
+    text-align-last: center;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+        }
+    }
+}
+#medidas{
+    padding-bottom: 150px;
+    .col3{
+        padding: 20px;
+        min-height: inherit;
+    }
+    img{
+        display: block;
+        margin: auto;
+    }
+    h3{
+        text-align: center;
+        margin-top: 20px;
+        font-size: 22px;
+    }
+    background: url(../img/talla.jpg) top left no-repeat;
+         //  height: 1800px;
+    .contenedor{
+            position: relative;
+    top: 210px;
+    }
+    .acercafondo{
+         background: url(../img/acerca2.png) right no-repeat;
+            height: 800px;
+    position: relative;
+          
+             margin-top: -157px;
+    margin-bottom: -546px;
+   
+    }
+    .divfondo1{
+margin-bottom: -265px;
+        h2{
+                color: #eeeeee;
+           font-size: 120px;
+    font-style: normal;
+    font-weight: bold;
+            position: relative;
+    left: 100px;
+            
+        }
+    }
+    .divfondo2{
+            position: relative;
+           top: -221px;
+        h2 span{
+            font-weight: normal;
+            position: relative;
+        left: -88px;
+    top: -10px;
+            
+        }
+    }
+    p.text{
+            position: relative;
+    top: 70px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    }
+    .grid{
+            position: relative;
+                top: 50px;
+        .col{
+                min-height: inherit;
+                display: block;
+    margin: auto;
+        }
+        p{
+                text-align: justify;
+    text-align-last: center;
+   
+    display: block;
+    margin: auto;
+            &.espe{
+                text-align: center;
+            }
+        }
+    }
+    
+    
+    
+    .faq{
+         td{
+            border-bottom: none;
+        font-family: 'Corbel';
+         font-size: 20px;
+             color: #626262;
+        
+    }
+   /* tr:nth-child(odd) {
+        background-color:#fafafa;
+    
+}
+tr:nth-child(even) {
+    background-color:white;
+}*/
+        tr{
+            background-color: #fafafa;
+        }
+    th{
+      font-family: 'Bell MT';
+    font-size: 25px;
+        color: white;
+        font-style: italic;
+        background-color: #daa2a3;
+    }
+       
+// General
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-family: 'Bell MT';
+    background: @dorado;
+    font-weight: bold;
+    cursor: pointer;
+          color: white;
+    font-size: 20px;
+    /* Icon */
+    &:hover {
+      background: @rosa;
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: @dorado;
+    cursor: pointer;
+    &:hover {
+      background: @rosa;
+    }
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+      font-family: 'Bell MT';
+    background: @dorado;
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}
+
+    }
+}
+    
+#valores{
+    p,a,img,h3{
+        opacity: inherit!important;
+            transform: initial!important;
+    }
+    img{
+        display: block;
+    margin: auto;
+        &.sol{
+            
+    margin-top: -110px;
+    margin-bottom: 110px;
+    }
+    }
+}
+
+#faq{
+    @midnight: #2c3e50;
+@clouds: #ecf0f1;
+// General
+
+
+input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+    &:last-child {
+      margin-left: 1em;
+    }
+  }
+}
+/* Accordion styles */
+.tabs {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
+}
+.tab {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+     font-family: 'Bell MT';
+
+      font-size: 25px;
+    background: @rosa;
+        color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+    &:hover {
+      background: @dorado;
+        
+    }
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+  }
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: $midnight;
+    background: white;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: @rosa;
+    color: white;
+      font-family: 'Corbel';
+          font-size: 13px;
+    cursor: pointer;
+    &:hover {
+      background: @dorado;
+    }
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+    background: @dorado;
+      
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+      color: @gris2;
+      font-family: 'Corbel';
+          font-size: 18px;
+  }
+}
+
+}
+@import "responsive";

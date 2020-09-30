@@ -1,44 +1,31 @@
 <?php
-    /* Template Name: Inicio */ 
+    /* Template Name: Acerca */ 
     get_header();
 ?>
+<section id="acerca" class="template-section">
+<div class="contenedor">
+<div class="divfondo1">
+<h2>Acerca de Berluz</h2>
+<div class="divfondo2">
+<h2><span class="rosa">ACERCA DE BERLUZ</span></h2>
+</div>
+</div>
+<img class="logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/acerca1.jpg" alt="Logo">
+<p class="text">Somos una tienda especializada en la selección y venta de vestidos para fiestas de XV años con diseños hermosos, innovadores y de buena calidad.  Hemos logrado ser parte de la historia y recuerdo de decenas de quinceañeras, que cumplieron sus sueños y seguirán haciéndolo. Nos apasiona escuchar las necesidades del cliente, crear una relación basada en el entendimiento y brindar el vestido de sus sueños a nuestras quinceañeras.  Nos mueve la alegría de cumplir ese sueño, traer luz al mundo, es nuestra mayor recompensa.</p>
+<div class="grid">
+    <div class="col"><h2>- MISIÓN -</h2><p>Lograr que lo mejor de nosotros se vea expresado en la calidad de los vestidos de XV años,  en nuestra atención y en la alegría de la cumpleañera al encontrar el vestido de sus sueños. </p></div>
+    <div class="col"><h2>- VISIÓN -</h2><p>Iluminar el mundo poniendo al alcance de las quinceañeras el vestido de sus sueños.</p></div>
+</div>
 
-<section id="slide" >
-    <?php add_revslider('berluz'); ?>
-</section>
+</div>
+<div class="acercafondo"></div>
 
-<div class="fondoinicio">
-<section id="vestidos" class="template-section">
-<div class="contenedor">
-   <div class="grid">
-    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vestidos1.png" alt="Logo"><br><a href="https://berluz.com/tienda/" class="tienda1">VER TIENDA</a></div>
-    <div class="col"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/vestidos2.png" alt="Logo"><br><a href="https://berluz.com/tienda/" class="tienda2">VER TIENDA</a></div>
-    </div>
-</div>
 </section>
-<section id="promociones" class="template-section">
+<section id="valores" class="template-section">
 <div class="contenedor">
-   <h2>Descubre tu vestido de cuento<span>PROMOCIONES</span></h2>
-   <?php echo do_shortcode( '[woodmart_products layout="carousel" slides_per_view="4" autoplay="no" hide_pagination_control="yes" hide_prev_next_buttons="no" center_mode="no" wrap="no" sale_countdown="0" stock_progress_bar="0" highlighted_products="0" products_bordered_grid="0" lazy_loading="no" scroll_carousel_init="no"]' ); ?>
-</div>
-</section>
-</div>
-<section id="testimonios" class="template-section">
-<div class="contenedor">
-   <h2 >Lo que nuestros clientes opinan <span>TESTIMONIOS</span></h2>
-  
-    <?php echo do_shortcode( '[elfsight_testimonials_slider id="1"]' ); ?>
-   
-    
-</div>
-</section>
-    <section id="ig" class="template-section">
-<div class="contenedor">
-   <h2 >Nos encanta verte brillar <span>INSTAGRAM</span></h2>
-  
-    
-   
-    
+<img class="sol" src="<?php echo get_stylesheet_directory_uri(); ?>/img/sol.png" alt="Logo">
+<h2><span class="rosa">NUESTROS VALORES</span></h2>
+<?php echo do_shortcode('[slide-anything id="7126"]'); ?>
 </div>
 </section>
 <section id="contacto" class="template-section">
