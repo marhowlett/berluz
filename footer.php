@@ -28,7 +28,7 @@
 	<footer>
      <section id="esbrillante" class="template-section">
  <div class="center">
- <p class="acerca"><a href="">ACERCA DE</a><a href="">AVISO DE PRIVACIDAD</a><a href="">TÉRMINOS Y CONDICIONES</a><a href="" class="espe">DEVOLUCIONES Y REEMPLAZOS</a></p>
+ <p class="acerca"><a href="https://berluz.com/acerca/">ACERCA DE</a><a href="https://berluz.com/aviso-de-privacidad-integral/">AVISO DE PRIVACIDAD</a><a href="">TÉRMINOS Y CONDICIONES</a><a href="" class="espe">DEVOLUCIONES Y REEMPLAZOS</a></p>
  <p class="sitio">Sitio web diseñado y desarrollado por <a href="http://esbrillante.mx/">EsBrillante</a></p>
  </div>
 </section>

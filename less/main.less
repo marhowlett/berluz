@@ -85,6 +85,13 @@ body.page-template-inicio, body.page-template-acerca, body.page-template-talla{
     display: inherit;
 }
 }
+.movil{
+    display: none;
+    
+}
+.lap{
+    display: inherit;
+}
 /* Ajustes generales de la plantilla */
  .woodmart-logo img {  
  
@@ -94,8 +101,8 @@ body.page-template-inicio, body.page-template-acerca, body.page-template-talla{
     padding: 30px;
 }
 .whb-general-header .woodmart-logo img {
-    max-height: max-content!important;
-    max-width: max-content!important;
+  //  max-height: max-content!important;
+   // max-width: max-content!important;
             margin-bottom: -23px;
 }
 @import "vars";
@@ -325,10 +332,12 @@ text-transform: uppercase;
     .col{
             padding: inherit;
         a{
-                   font-weight: bold;
+   display: block;
+    font-weight: bold;
     border-bottom: 1px solid #daa2a3;
     position: relative;
-            bottom: 171px;
+    bottom: 171px;
+    max-width: 100px;
             &.tienda2{
                     
     left: 41px;
@@ -693,7 +702,7 @@ input {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $midnight;
+    color: #626262;
     background: white;
     transition: all .35s;
   }
@@ -802,7 +811,7 @@ input {
   &-content {
     max-height: 0;
     padding: 0 1em;
-    color: $midnight;
+    color: #626262;
     background: white;
     transition: all .35s;
   }

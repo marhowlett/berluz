@@ -22,7 +22,7 @@
         <input type="radio" id="rd2" name="rd">
         <label class="tab-label" for="rd2">¿Qué incluye?</label>
         <div class="tab-content">
-          Tu Vestido, crinolina y bolsa porta vestido.
+          Tu Vestido, envío gratis y bolsa porta vestido.
 
         </div>
         
@@ -91,19 +91,11 @@
         <label class="tab-label" for="rd8">¿En qué color hay?
 </label>
         <div class="tab-content">
-        Sí, lleva el PDF a la imprenta para solicitar la ampliación
+     En la descripción del vestido puedes consultar los colores disponibles.
         </div>
         
       </div>
-      <div class="tab">
-        <input type="radio" id="rd9" name="rd">
-        <label class="tab-label" for="rd9">¿Tienen formatos para otras áreas de la salud?
-</label>
-        <div class="tab-content">
-        En la descripción del vestido puedes consultar los colores disponibles.
-        </div>
-        
-      </div>
+      
       <div class="tab">
         <input type="radio" id="rd10" name="rd">
         <label class="tab-label" for="rd10">¿Cada cuanto llegan nuevos modelos?
@@ -120,23 +112,12 @@
 
 </label>
         <div class="tab-content">
-       Envíanos un correo a <a href="mailto:formatos@docdocs.com.mx">formatos@docdocs.com.mx</a> con tu formato en word o una foto de lo que necesitas perfectamente legible para que hagamos un diagnóstico del caso.
+       Si. Consulta nuestra <a href="">Pólitica de Devoluciones</a>
 
         </div>
         
       </div>
-      <div class="tab">
-        <input type="radio" id="rd12" name="rd">
-        <label class="tab-label" for="rd12">¿En cuánto tiempo llegan mis formatos?
-
-</label>
-        <div class="tab-content">
-      Si. Consulta nuestra <a href="">Pólitica de Devoluciones</a>
- 
-Nota: al realizar su orden en nuestro sitio web acepta todas las políticas.
-        </div>
-        
-      </div>
+      
       
       <div class="tab">
         <input type="radio" id="rd20" name="rd">
